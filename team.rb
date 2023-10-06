@@ -10,7 +10,6 @@ class Team
 
   def calc_win_rate
     calc_win_rate = self.win.to_f / (self.win + self.lose)
-    calc_win_rate.round(3)  # 勝率を小数点以下3桁まで表示
   end
 
   def show_team_result
